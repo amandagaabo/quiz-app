@@ -1,6 +1,7 @@
 body {
   font-family: 'Raleway', sans-serif;
   text-align: center;
+  min-width: 425px;
 }
 
 /* hide but keep space where element was (hide content only) */
@@ -18,17 +19,12 @@ body {
 }
 
 .question-progress, .current-score {
-  display: inline-block;
+  display: block;
   margin-top: 10px;
 }
 
 .current-score {
   float: right;
-  margin-top: 20px;
-}
-
-.question-progress {
-  float: left;
 }
 
 .question-progress span {
@@ -46,7 +42,7 @@ body {
 } 
 
 main img {
-  max-height: 300px;
+  min-width: 300px;
   width: 50%;
   margin-bottom: 15px;
   margin-top: 15px;
@@ -73,7 +69,7 @@ button {
   background-color: white;
 }
 
-button:hover:enabled {
+button:hover:enabled, button:focus:enabled {
   background-color: black;
   color: white;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
