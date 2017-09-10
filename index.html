@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="What are the names of baby animals quiz">
+
+    <title>Baby Animal Quiz</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="float-grid.css" rel="stylesheet" type="text/css" />
+    <link href="main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <section role="region" class="progress-bar hide-content">
+        <div class="row">
+            <div class="col-12">
+                <div class="question-progress"></div>
+
+                <p class="current-score">Current score: <span id="questions-correct">0</span>/<span id="questions-answered">0</span></p>
+            </div>
+        </div>
+    </section>
+
+    <header role="banner">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="heading-text">Baby Animal Quiz</h1>
+            </div>
+        </div>
+    </header>
+
+    <main role="main">
+        <div class="row image-div">
+            <div class="col-12">
+                <img src="https://image.ibb.co/kyxcda/penguin_429125_960_720.jpg" alt="baby animal quiz start" class="animal-image">
+            </div>
+        </div>
+
+        <div class="row answer-options hide-element">
+            <div class="col-12">
+                <form role="form">
+                    <fieldset name="answer-options">
+                        <legend>Answer Options</legend>
+                        <div class="option-buttons"></div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
+        <div class="row results-div hide-element">
+            <div class="col-12">
+                <h3>Your Score:</h3>
+                <p id="final-score"></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="row footer">
+            <div class="col-12">
+                <p id="footer-text"> Do you know what different baby animals are called? Test your knowledge now! </p>
+                <button type="button" id="main-btn"><span id="main-btn-text">Begin Quiz</span></button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

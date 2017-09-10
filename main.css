@@ -1,0 +1,105 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+/* hide but keep space where element was (hide content only) */
+.hide-content {
+  visibility: hidden;
+}
+
+/* remove entire element from active page */
+.hide-element {
+  display: none;
+}
+
+.progress-bar {
+  border-bottom: 1px solid black;
+}
+
+.question-progress, .current-score {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.current-score {
+  float: right;
+  margin-top: 20px;
+}
+
+.question-progress {
+  float: left;
+}
+
+.question-progress span {
+    float: left;
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    border: 1px solid black;
+    margin: 0 3px;
+}
+
+.row {
+  /*border: 1px solid black;*/
+  margin: 10px auto;
+} 
+
+main img {
+  max-height: 300px;
+  width: 50%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+/* override fieldset defaults */
+fieldset {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+legend {
+  display: none;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  height: 30px;
+  width: 180px;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: white;
+}
+
+button:hover:enabled, button:focus:enabled {
+  background-color: black;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.correct {
+  background-color: #6BC699;
+  color: black;
+}
+
+.incorrect {
+  background-color: #CF7B7B;
+  color: black;
+}
+
+.current-question {
+  background-color: white;
+  color: black;
+}
+
+.not-answered {
+  color: #85929E;
+  background-color: #D6DBDF;
+}
+
+#final-score {
+  font-size: 30pt;
+  font-weight: bold;
+}
