@@ -38,14 +38,14 @@ body {
 
 .row {
   /*border: 1px solid black;*/
-  margin: 10px auto;
+  margin: 0 auto;
 } 
 
 main img {
   min-width: 300px;
   width: 50%;
-  margin-bottom: 15px;
-  margin-top: 15px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 /* override fieldset defaults */
