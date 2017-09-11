@@ -72,4 +72,18 @@
   .col-12 {
     width: 100%;
   }
+
+  /* for full screen, position progress bar and score in same line*/
+  .question-progress, .current-score {
+    display: inline-block;
+  }
+  
+  .current-score {
+    float: right;
+    padding-top: 8px;
+  }
+
+  .question-progress {
+    float: left;
+  }
 }

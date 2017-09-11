@@ -19,30 +19,25 @@ body {
 }
 
 .question-progress, .current-score {
-  display: block;
   margin-top: 10px;
 }
 
-.current-score {
-  float: right;
-}
-
 .question-progress span {
-    float: left;
+    display: inline-block;
     width: 30px;
     height: 30px;
-    padding: 4px;
     border: 1px solid black;
+    padding-top: 4px;
     margin: 0 3px;
 }
 
 .row {
   /*border: 1px solid black;*/
   margin: 0 auto;
-} 
+}
 
 main img {
-  min-width: 300px;
+  min-width: 250px;
   width: 50%;
   margin-bottom: 5px;
   margin-top: 5px;
