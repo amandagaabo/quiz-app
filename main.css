@@ -86,8 +86,8 @@ button:hover:enabled, button:focus:enabled {
 }
 
 .not-answered {
-  color: #85929E;
-  background-color: #D6DBDF;
+  color: white;
+  background-color: black;
 }
 
 #final-score {
