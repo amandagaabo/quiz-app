@@ -207,7 +207,7 @@ function handleAnswerBtnClick () {
     const questionData = currentQuestion()
 
     // find user selection
-    const userSelection = event.currentTarget.text()
+    const userSelection = $(event.currentTarget).text()
     console.log(`user selected answer: ${userSelection}`)
     const correctAns = questionData.options.find(option => option.correct === true).answer
 
